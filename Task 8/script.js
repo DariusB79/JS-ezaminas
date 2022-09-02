@@ -8,12 +8,10 @@ division(a, b) - priima du skaičius ir grąžina jų dalybos rezultatą;
 
 const Calculator = (e) => {
     e.preventDefault();
-    // console.log(e);
 
     const x = Number(inputX.value);
     const y = Number(inputY.value);
-    // resultParagraph.textContent = x + y;
-
+  
     if (e.submitter.id == "addBtn") {
       resultParagraph.textContent = x + y;
     } else if (e.submitter.id == "subBtn") {
